@@ -98,7 +98,7 @@
 				border-radius: 0px;
 			}
 
-			html { font-family: "Source Serif 4", serif; font-weight: normal; font-size: 12px; }
+			html { font-family: "Source Serif 4", serif; font-weight: normal; font-size: 18px; }
 			body { width: 100%; min-height: 100dvh; padding: 4rem 1rem; background-color: #f8f8fc; }
 			footer { max-width: 400px; }
 			textarea { resize: none; }
@@ -193,9 +193,9 @@
 			.entry-content { transition: opacity ease 200ms; }
 			.entry-content.fade { opacity: 0; }
 
-			.container { max-width: 460px; }
+			.container { max-width: 680px; }
 			.form-container { border-radius: 24px; }
-			.form-inner-container { display: grid; grid-template-rows: 0fr; opacity: 0; }
+			.form-inner-container { display: grid; grid-template-rows: 0fr; opacity: 0; transition: all ease 200ms; }
 			.form-inner-container.open { grid-template-rows: 1fr; opacity: 1; }
 			.form-inner-container > div { overflow: hidden; }
 		</style>
